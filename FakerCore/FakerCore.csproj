@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>FakerLib</RootNamespace>
+    </PropertyGroup>
+<ItemGroup>
+    <ProjectReference Include="..\GeneratorsLib\GeneratorsLib.csproj" />
+</ItemGroup>
+    
+</Project>

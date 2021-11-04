@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{8CE8E375-BE86-4E9B-B8A7-D65A5487EDD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratorsLib", "GeneratorsLib\GeneratorsLib.csproj", "{F20294DA-080A-42F0-B5B3-BEAB42775017}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakerCore", "FakerCore\FakerCore.csproj", "{0765D29D-A010-44F1-BB44-A5BAF8089811}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CE8E375-BE86-4E9B-B8A7-D65A5487EDD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE8E375-BE86-4E9B-B8A7-D65A5487EDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE8E375-BE86-4E9B-B8A7-D65A5487EDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE8E375-BE86-4E9B-B8A7-D65A5487EDD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F20294DA-080A-42F0-B5B3-BEAB42775017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20294DA-080A-42F0-B5B3-BEAB42775017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20294DA-080A-42F0-B5B3-BEAB42775017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20294DA-080A-42F0-B5B3-BEAB42775017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0765D29D-A010-44F1-BB44-A5BAF8089811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0765D29D-A010-44F1-BB44-A5BAF8089811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0765D29D-A010-44F1-BB44-A5BAF8089811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0765D29D-A010-44F1-BB44-A5BAF8089811}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
