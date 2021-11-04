@@ -5,6 +5,8 @@ namespace Plugin
 {
     public class StringGenerator : Generator
     {
+        private const string Symbols = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz123456789";
+        private const int MaxLength = 50;
         public StringGenerator()
         {
             TypeOfObj = typeof(string);
@@ -12,9 +14,7 @@ namespace Plugin
 
         public override object Generate()
         {
-            const int length = 100;
-            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz123456789";
-            return new string(Enumerable.Repeat(chars, length)
+            return new string(Enumerable.Repeat(Symbols, MaxLength)
                 .Select(s => s[Random.Next(s.Length)]).ToArray());
         }
     }
