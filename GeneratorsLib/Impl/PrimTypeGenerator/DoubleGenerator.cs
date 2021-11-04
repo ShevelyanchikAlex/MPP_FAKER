@@ -1,8 +1,8 @@
 ﻿namespace GeneratorsLib.Impl.PrimTypeGenerator
 {
-    public class DoubleAbstractGenerator : AbstractGenerator
+    public class DoubleGenerator : AbstractGenerator
     {
-        public DoubleAbstractGenerator()
+        public DoubleGenerator()
         {
             TypeOfObj = typeof(double);
         }

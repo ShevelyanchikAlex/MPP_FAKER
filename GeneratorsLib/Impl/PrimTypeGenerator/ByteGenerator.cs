@@ -1,10 +1,10 @@
 ﻿namespace GeneratorsLib.Impl.PrimTypeGenerator
 {
-    public class ByteAbstractGenerator : AbstractGenerator
+    public class ByteGenerator : AbstractGenerator
     {
         private const int MaxValue = 256;
 
-        public ByteAbstractGenerator()
+        public ByteGenerator()
         {
             TypeOfObj = typeof(byte);
         }

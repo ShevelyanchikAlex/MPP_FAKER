@@ -1,8 +1,8 @@
 ﻿namespace GeneratorsLib.Impl.PrimTypeGenerator
 {
-    public class LongAbstractGenerator : AbstractGenerator
+    public class LongGenerator : AbstractGenerator
     {
-        public LongAbstractGenerator()
+        public LongGenerator()
         {
             TypeOfObj = typeof(long);
         }

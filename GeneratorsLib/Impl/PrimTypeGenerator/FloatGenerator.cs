@@ -1,8 +1,8 @@
 ﻿namespace GeneratorsLib.Impl.PrimTypeGenerator
 {
-    public class FloatAbstractGenerator : AbstractGenerator
+    public class FloatGenerator : AbstractGenerator
     {
-        public FloatAbstractGenerator()
+        public FloatGenerator()
         {
             TypeOfObj = typeof(float);
         }

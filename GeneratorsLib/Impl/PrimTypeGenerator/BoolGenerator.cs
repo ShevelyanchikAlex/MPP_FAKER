@@ -1,11 +1,11 @@
 ﻿namespace GeneratorsLib.Impl.PrimTypeGenerator
 {
-    public class BoolAbstractGenerator : AbstractGenerator
+    public class BoolGenerator : AbstractGenerator
     {
         private const int MaxValue = 10;
         private const int CompareValue = 5;
 
-        public BoolAbstractGenerator()
+        public BoolGenerator()
         {
             TypeOfObj = typeof(bool);
         }

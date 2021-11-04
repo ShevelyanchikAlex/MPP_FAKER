@@ -27,12 +27,12 @@ namespace FakerLib.Impl
 
         public Faker(Dictionary<Type, string> pluginPaths)
         {
-            _primTypeGenerators.Add(typeof(bool), new BoolAbstractGenerator());
-            _primTypeGenerators.Add(typeof(byte), new ByteAbstractGenerator());
-            _primTypeGenerators.Add(typeof(double), new DoubleAbstractGenerator());
-            _primTypeGenerators.Add(typeof(float), new FloatAbstractGenerator());
-            _primTypeGenerators.Add(typeof(int), new IntAbstractGenerator());
-            _primTypeGenerators.Add(typeof(long), new LongAbstractGenerator());
+            _primTypeGenerators.Add(typeof(bool), new BoolGenerator());
+            _primTypeGenerators.Add(typeof(byte), new ByteGenerator());
+            _primTypeGenerators.Add(typeof(double), new DoubleGenerator());
+            _primTypeGenerators.Add(typeof(float), new FloatGenerator());
+            _primTypeGenerators.Add(typeof(int), new IntGenerator());
+            _primTypeGenerators.Add(typeof(long), new LongGenerator());
             _dateTimeGenerators.Add(typeof(DateTime), new DateTimeAbstractGenerator());
 
             LoadPlugins(pluginPaths);

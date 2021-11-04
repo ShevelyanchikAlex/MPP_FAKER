@@ -1,11 +1,11 @@
 ﻿namespace GeneratorsLib.Impl.PrimTypeGenerator
 {
-    public class IntAbstractGenerator : AbstractGenerator
+    public class IntGenerator : AbstractGenerator
     {
         private const int MinValue = -1000;
         private const int MaxValue = 1000;
 
-        public IntAbstractGenerator()
+        public IntGenerator()
         {
             TypeOfObj = typeof(int);
         }
